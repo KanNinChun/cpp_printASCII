@@ -30,7 +30,7 @@ void Welcome()
     std::cout<<"Enjoy your coding journey~ Have Fun with it." <<std::endl;
 }
 
-int main()
+void init()
 {
     Welcome(); //calling function
 
@@ -48,5 +48,10 @@ int main()
     
     system("pause"); // (pasue console for us to see)
 
+}
+
+int main()
+{
+    init();
     return 0; 
 }
